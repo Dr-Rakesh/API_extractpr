@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Upload & Process</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Upload File for Processing</h1>
+
+    <form id="uploadForm" enctype="multipart/form-data">
+      <label for="product">Product</label>
+      <select id="product" name="product" required>
+        <option value="Teamcenter">Teamcenter</option>
+        <option value="NX">NX</option>
+      </select>
+
+      <label for="version">Version</label>
+      <select id="version" name="version" required>
+        <option value="2406">2406</option>
+        <option value="2506">2506</option>
+        <option value="1433">1433</option>
+      </select>
+
+      <label for="app_id">App ID</label>
+      <select id="app_id" name="app_id" required>
+        <option value="">-- choose --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+
+      <label for="fileInput">File (.xlsx, .xls, .csv)</label>
+      <input type="file" id="fileInput" name="file" accept=".xlsx,.xls,.csv" required />
+
+      <div class="buttons">
+        <button type="submit" id="processButton">Process</button>
+        <button type="button" id="debugButton">Send to Debug Endpoint</button>
+      </div>
+    </form>
+
+    <div id="spinner" class="spinner" style="display:none"></div>
+
+    <div id="result" style="display:none">
+      <p>Processing complete. Download: <a id="downloadLink" href="#" download>download</a></p>
+    </div>
+
+    <div id="debugResponse" style="white-space:pre-wrap; margin-top:1rem;"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

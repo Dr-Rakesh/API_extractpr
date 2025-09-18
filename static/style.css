@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background:#f8f8f8; margin:0; padding:20px; }
+.container { max-width:800px; margin:40px auto; background:#fff; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); border-radius:6px; }
+label { display:block; margin-top:12px; font-weight:600; }
+select, input[type="file"] { display:block; margin-top:6px; padding:8px; width:100%; box-sizing:border-box; }
+.buttons { margin-top:12px; display:flex; gap:8px; }
+button { padding:8px 12px; background:#067ab4; color:#fff; border:none; border-radius:4px; cursor:pointer; }
+button:hover { background:#055a8c; }
+.spinner { margin:16px auto; width:40px; height:40px; border:6px solid #f3f3f3; border-top:6px solid #067ab4; border-radius:50%; animation:spin 1s linear infinite; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+#debugResponse { background:#f0f0f0; padding:12px; border-radius:4px; margin-top:12px; }
+#result { margin-top:12px; }
