@@ -1,0 +1,204 @@
+2025-08-20 20:23:47,369 - INFO - Received file: Input - Copy.xlsx
+2025-08-20 20:23:47,369 - INFO - Selected product: Teamcenter, version: 2406
+2025-08-20 20:23:47,371 - INFO - Uploaded file saved to output/Input - Copy.xlsx
+2025-08-20 20:23:48,380 - INFO - Added column: Relevance
+2025-08-20 20:23:48,380 - INFO - Added column: Accuracy
+2025-08-20 20:23:48,380 - INFO - Added column: Clarity
+2025-08-20 20:23:48,381 - INFO - Added column: Tone and Politeness
+2025-08-20 20:23:48,381 - INFO - Added column: Completeness
+2025-08-20 20:23:48,382 - INFO - Added column: Engagement
+2025-08-20 20:23:48,382 - INFO - Added column: User Satisfaction
+2025-08-20 20:23:48,382 - INFO - Added column: Bias and Ethical
+2025-08-20 20:23:48,383 - INFO - Added column: Cross-Session Continuity
+2025-08-20 20:23:48,384 - INFO - Added column: Information Provenance
+2025-08-20 20:23:48,384 - INFO - Attempting to obtain token...
+2025-08-20 20:23:48,384 - INFO - 
+POST (form) to https://app-adt-11.azurewebsites.net/auth/token
+2025-08-20 20:23:48,384 - INFO - Headers: {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded'}
+2025-08-20 20:23:48,384 - INFO - Form data: {'grant_type': 'password', 'username': 'mahendar.bhandari.ext@siemens.com', 'password': '12345', 'client_id': 'Bearer'}
+2025-08-20 20:23:50,129 - INFO - Status: 200
+2025-08-20 20:23:50,129 - INFO - Response: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA","token_type":"bearer","expires_at":"2025-08-25T14:53:50.075488"}
+2025-08-20 20:23:50,129 - INFO - Token extracted using form payload: {'grant_type': 'password', 'username': 'mahendar.bhandari.ext@siemens.com', 'password': '12345', 'client_id': 'Bearer'}
+2025-08-20 20:23:50,131 - INFO - Token obtained successfully.
+2025-08-20 20:23:50,131 - INFO - Token response JSON: {
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA",
+  "token_type": "bearer",
+  "expires_at": "2025-08-25T14:53:50.075488"
+}
+2025-08-20 20:23:50,132 - INFO - Processing question 1/5: How can I customize Active Workspace?
+2025-08-20 20:23:50,132 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:23:50,132 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA'}
+2025-08-20 20:23:50,132 - INFO - Form data: {'message': 'How can I customize Active Workspace?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:24:16,713 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:24:16,715 - INFO - Message saved to messages\How_can_I_customize_Active_Wor_20250820_202416.json
+2025-08-20 20:24:16,715 - INFO - Processed question 1 successfully.
+2025-08-20 20:24:16,716 - INFO - Processing question 2/5: What is Command Builder command?
+2025-08-20 20:24:16,716 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:24:16,716 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA'}
+2025-08-20 20:24:16,716 - INFO - Form data: {'message': 'What is Command Builder command?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:24:44,414 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:24:44,416 - INFO - Message saved to messages\What_is_Command_Builder_comman_20250820_202444.json
+2025-08-20 20:24:44,416 - INFO - Processed question 2 successfully.
+2025-08-20 20:24:44,417 - INFO - Processing question 3/5: When Command Builder is visible?
+2025-08-20 20:24:44,417 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:24:44,417 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA'}
+2025-08-20 20:24:44,417 - INFO - Form data: {'message': 'When Command Builder is visible?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:25:01,642 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:25:01,643 - INFO - Message saved to messages\When_Command_Builder_is_visibl_20250820_202501.json
+2025-08-20 20:25:01,644 - INFO - Processed question 3 successfully.
+2025-08-20 20:25:01,644 - INFO - Processing question 4/5: Is it possible to store changes in Command Builder?
+2025-08-20 20:25:01,644 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:25:01,645 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA'}
+2025-08-20 20:25:01,645 - INFO - Form data: {'message': 'Is it possible to store changes in Command Builder?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:25:16,259 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:25:16,260 - INFO - Message saved to messages\Is_it_possible_to_store_change_20250820_202516.json
+2025-08-20 20:25:16,261 - INFO - Processed question 4 successfully.
+2025-08-20 20:25:16,261 - INFO - Processing question 5/5: What is Live Excel?
+2025-08-20 20:25:16,261 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:25:16,261 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM2MzB9.5xezZUmrs7t7W8JLyayI8U0OMbvbwtZSBP6fmtvVWpA'}
+2025-08-20 20:25:16,262 - INFO - Form data: {'message': 'What is Live Excel?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:25:47,132 - ERROR - Request exception for question 5: HTTPSConnectionPool(host='app-adt-11.azurewebsites.net', port=443): Read timed out. (read timeout=30)
+2025-08-20 20:25:47,170 - INFO - Processed file saved to output/processed_20250820_202547.xlsx
+2025-08-20 20:27:43,219 - INFO - Received file: Input - Copy.xlsx
+2025-08-20 20:27:43,220 - INFO - Selected product: Teamcenter, version: 2406
+2025-08-20 20:27:43,221 - INFO - Uploaded file saved to output/Input - Copy.xlsx
+2025-08-20 20:27:43,675 - INFO - Added column: Relevance
+2025-08-20 20:27:43,675 - INFO - Added column: Accuracy
+2025-08-20 20:27:43,676 - INFO - Added column: Clarity
+2025-08-20 20:27:43,676 - INFO - Added column: Tone and Politeness
+2025-08-20 20:27:43,677 - INFO - Added column: Completeness
+2025-08-20 20:27:43,677 - INFO - Added column: Engagement
+2025-08-20 20:27:43,677 - INFO - Added column: User Satisfaction
+2025-08-20 20:27:43,677 - INFO - Added column: Bias and Ethical
+2025-08-20 20:27:43,679 - INFO - Added column: Cross-Session Continuity
+2025-08-20 20:27:43,679 - INFO - Added column: Information Provenance
+2025-08-20 20:27:43,679 - INFO - Attempting to obtain token...
+2025-08-20 20:27:43,679 - INFO - 
+POST (form) to https://app-adt-11.azurewebsites.net/auth/token
+2025-08-20 20:27:43,679 - INFO - Headers: {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded'}
+2025-08-20 20:27:43,680 - INFO - Form data: {'grant_type': 'password', 'username': 'mahendar.bhandari.ext@siemens.com', 'password': '12345', 'client_id': 'Bearer'}
+2025-08-20 20:27:45,373 - INFO - Status: 200
+2025-08-20 20:27:45,374 - INFO - Response: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo","token_type":"bearer","expires_at":"2025-08-25T14:57:45.318789"}
+2025-08-20 20:27:45,374 - INFO - Token extracted using form payload: {'grant_type': 'password', 'username': 'mahendar.bhandari.ext@siemens.com', 'password': '12345', 'client_id': 'Bearer'}
+2025-08-20 20:27:45,376 - INFO - Token obtained successfully.
+2025-08-20 20:27:45,376 - INFO - Token response JSON: {
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo",
+  "token_type": "bearer",
+  "expires_at": "2025-08-25T14:57:45.318789"
+}
+2025-08-20 20:27:45,376 - INFO - Processing question 1/5: How can I customize Active Workspace?
+2025-08-20 20:27:45,376 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:27:45,377 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo'}
+2025-08-20 20:27:45,377 - INFO - Form data: {'message': 'How can I customize Active Workspace?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:28:15,424 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:28:15,425 - INFO - Message saved to messages\How_can_I_customize_Active_Wor_20250820_202815.json
+2025-08-20 20:28:15,426 - INFO - Processed question 1 successfully.
+2025-08-20 20:28:15,426 - INFO - Processing question 2/5: What is Command Builder command?
+2025-08-20 20:28:15,427 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:28:15,427 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo'}
+2025-08-20 20:28:15,427 - INFO - Form data: {'message': 'What is Command Builder command?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:28:37,742 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:28:37,743 - INFO - Message saved to messages\What_is_Command_Builder_comman_20250820_202837.json
+2025-08-20 20:28:37,743 - INFO - Processed question 2 successfully.
+2025-08-20 20:28:37,744 - INFO - Processing question 3/5: When Command Builder is visible?
+2025-08-20 20:28:37,744 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:28:37,744 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo'}
+2025-08-20 20:28:37,744 - INFO - Form data: {'message': 'When Command Builder is visible?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:28:53,148 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:28:53,149 - INFO - Message saved to messages\When_Command_Builder_is_visibl_20250820_202853.json
+2025-08-20 20:28:53,150 - INFO - Processed question 3 successfully.
+2025-08-20 20:28:53,150 - INFO - Processing question 4/5: Is it possible to store changes in Command Builder?
+2025-08-20 20:28:53,150 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:28:53,151 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo'}
+2025-08-20 20:28:53,151 - INFO - Form data: {'message': 'Is it possible to store changes in Command Builder?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:29:14,063 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:29:14,064 - INFO - Message saved to messages\Is_it_possible_to_store_change_20250820_202914.json
+2025-08-20 20:29:14,065 - INFO - Processed question 4 successfully.
+2025-08-20 20:29:14,065 - INFO - Processing question 5/5: What is Live Excel?
+2025-08-20 20:29:14,065 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:29:14,066 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzM4NjV9.iF5p5_MlB1pVNPxb6Zv1FmuC2aoVUuyDz7GKNrXqnyo'}
+2025-08-20 20:29:14,066 - INFO - Form data: {'message': 'What is Live Excel?', 'product': 'Teamcenter', 'version': '2406', 'app_id': '1'}
+2025-08-20 20:29:39,198 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:29:39,199 - INFO - Message saved to messages\What_is_Live_Excel__20250820_202939.json
+2025-08-20 20:29:39,200 - INFO - Processed question 5 successfully.
+2025-08-20 20:29:39,238 - INFO - Processed file saved to output/processed_20250820_202939.xlsx
+2025-08-20 20:32:51,145 - INFO - Received file: Input - Copy.xlsx
+2025-08-20 20:32:51,145 - INFO - Selected product: Teamcenter, version: 2506
+2025-08-20 20:32:51,146 - INFO - Uploaded file saved to output/Input - Copy.xlsx
+2025-08-20 20:32:51,176 - INFO - Added column: Relevance
+2025-08-20 20:32:51,176 - INFO - Added column: Accuracy
+2025-08-20 20:32:51,177 - INFO - Added column: Clarity
+2025-08-20 20:32:51,177 - INFO - Added column: Tone and Politeness
+2025-08-20 20:32:51,178 - INFO - Added column: Completeness
+2025-08-20 20:32:51,178 - INFO - Added column: Engagement
+2025-08-20 20:32:51,179 - INFO - Added column: User Satisfaction
+2025-08-20 20:32:51,179 - INFO - Added column: Bias and Ethical
+2025-08-20 20:32:51,180 - INFO - Added column: Cross-Session Continuity
+2025-08-20 20:32:51,180 - INFO - Added column: Information Provenance
+2025-08-20 20:32:51,180 - INFO - Attempting to obtain token...
+2025-08-20 20:32:51,180 - INFO - 
+POST (form) to https://app-adt-11.azurewebsites.net/auth/token
+2025-08-20 20:32:51,181 - INFO - Headers: {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded'}
+2025-08-20 20:32:51,181 - INFO - Form data: {'grant_type': 'password', 'username': 'mahendar.bhandari.ext@siemens.com', 'password': '12345', 'client_id': 'Bearer'}
+2025-08-20 20:32:52,856 - INFO - Status: 200
+2025-08-20 20:32:52,856 - INFO - Response: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM","token_type":"bearer","expires_at":"2025-08-25T15:02:52.804080"}
+2025-08-20 20:32:52,858 - INFO - Token extracted using form payload: {'grant_type': 'password', 'username': 'mahendar.bhandari.ext@siemens.com', 'password': '12345', 'client_id': 'Bearer'}
+2025-08-20 20:32:52,860 - INFO - Token obtained successfully.
+2025-08-20 20:32:52,860 - INFO - Token response JSON: {
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM",
+  "token_type": "bearer",
+  "expires_at": "2025-08-25T15:02:52.804080"
+}
+2025-08-20 20:32:52,860 - INFO - Processing question 1/5: How can I customize Active Workspace?
+2025-08-20 20:32:52,861 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:32:52,861 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM'}
+2025-08-20 20:32:52,861 - INFO - Form data: {'message': 'How can I customize Active Workspace?', 'product': 'Teamcenter', 'version': '2506', 'app_id': '1'}
+2025-08-20 20:33:15,244 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:33:15,246 - INFO - Message saved to messages\How_can_I_customize_Active_Wor_20250820_203315.json
+2025-08-20 20:33:15,246 - INFO - Processed question 1 successfully.
+2025-08-20 20:33:15,247 - INFO - Processing question 2/5: What is Command Builder command?
+2025-08-20 20:33:15,247 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:33:15,247 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM'}
+2025-08-20 20:33:15,247 - INFO - Form data: {'message': 'What is Command Builder command?', 'product': 'Teamcenter', 'version': '2506', 'app_id': '1'}
+2025-08-20 20:33:33,530 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:33:33,532 - INFO - Message saved to messages\What_is_Command_Builder_comman_20250820_203333.json
+2025-08-20 20:33:33,532 - INFO - Processed question 2 successfully.
+2025-08-20 20:33:33,532 - INFO - Processing question 3/5: When Command Builder is visible?
+2025-08-20 20:33:33,532 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:33:33,533 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM'}
+2025-08-20 20:33:33,533 - INFO - Form data: {'message': 'When Command Builder is visible?', 'product': 'Teamcenter', 'version': '2506', 'app_id': '1'}
+2025-08-20 20:33:51,007 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:33:51,009 - INFO - Message saved to messages\When_Command_Builder_is_visibl_20250820_203351.json
+2025-08-20 20:33:51,009 - INFO - Processed question 3 successfully.
+2025-08-20 20:33:51,010 - INFO - Processing question 4/5: Is it possible to store changes in Command Builder?
+2025-08-20 20:33:51,010 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:33:51,010 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM'}
+2025-08-20 20:33:51,010 - INFO - Form data: {'message': 'Is it possible to store changes in Command Builder?', 'product': 'Teamcenter', 'version': '2506', 'app_id': '1'}
+2025-08-20 20:34:15,985 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:34:15,987 - INFO - Message saved to messages\Is_it_possible_to_store_change_20250820_203415.json
+2025-08-20 20:34:15,987 - INFO - Processed question 4 successfully.
+2025-08-20 20:34:15,987 - INFO - Processing question 5/5: What is Live Excel?
+2025-08-20 20:34:15,987 - INFO - 
+POST /message to https://app-adt-11.azurewebsites.net/message
+2025-08-20 20:34:15,988 - INFO - Headers: {'Accept': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYWhlbmRhci5iaGFuZGFyaS5leHRAc2llbWVucy5jb20iLCJleHAiOjE3NTYxMzQxNzJ9.eXYerGyn5IycGkimfjUO0YIubGH-qWjBtzfNgU6grKM'}
+2025-08-20 20:34:15,988 - INFO - Form data: {'message': 'What is Live Excel?', 'product': 'Teamcenter', 'version': '2506', 'app_id': '1'}
+2025-08-20 20:34:38,578 - INFO - No 'Relevant URLs' section found in response.
+2025-08-20 20:34:38,579 - INFO - Message saved to messages\What_is_Live_Excel__20250820_203438.json
+2025-08-20 20:34:38,580 - INFO - Processed question 5 successfully.
+2025-08-20 20:34:38,606 - INFO - Processed file saved to output/processed_20250820_203438.xlsx
+2025-08-20 20:51:31,497 - INFO - Received upload request: file=Input - Copy.xlsx product=Teamcenter version=2506 app_id=None
+2025-08-20 20:51:34,230 - INFO - Received upload request: file=Input - Copy.xlsx product=Teamcenter version=2506 app_id=None
